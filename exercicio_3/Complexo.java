@@ -11,13 +11,6 @@ public class Complexo {
 		this.b2 = b2;
 	}
 	
-	public Complexo() {
-		a1 = 5;
-		b1 = 10;
-		a2 = 3;
-		b2 = 2;
-	}
-	
 	public void soma() {
 		a = a1 + a2;
 		b = b1 + b2;

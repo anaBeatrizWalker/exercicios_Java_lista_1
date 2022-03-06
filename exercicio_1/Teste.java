@@ -14,10 +14,10 @@ public class Teste {
 		Pessoa e = new Pessoa("Cláudia", "Fem", 40, false);
 		
 		Churrasco sabado = new Churrasco();
-		sabado.verificarConsumo(a);
-		sabado.verificarConsumo(b);
-		sabado.verificarConsumo(c);
-		sabado.verificarConsumo(d);
-		sabado.verificarConsumo(e);
+		sabado.verificarConsumo(a); //Ana comeu 1.0 kg de carne.
+		sabado.verificarConsumo(b); //Gustavo comeu 0.0 kg de carne.
+		sabado.verificarConsumo(c); //Júlia comeu 0.0 kg de carne.
+		sabado.verificarConsumo(d); //Isa comeu 1.0 kg de carne.
+		sabado.verificarConsumo(e); //Cláudia comeu 2.0 kg de carne.
 	}
 }

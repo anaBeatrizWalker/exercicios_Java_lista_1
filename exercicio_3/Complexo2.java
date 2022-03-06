@@ -9,6 +9,7 @@ public class Complexo2 {
 		this.b = b;
 	}
 	
+	//Valores padrão se nenhum for passado
 	public Complexo2() {
 		this.a = 0.0;
 		this.b = 0.0;
@@ -23,6 +24,6 @@ public class Complexo2 {
 	}
 	
 	public String toString() {
-		return "(" + a + ", " + b + "i)";
+		return "(" + a + " + " + b + "i)";
 	}
 }
